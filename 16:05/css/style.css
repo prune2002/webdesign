@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400;500;600;700&family=Oswald:wght@200;300;400;500;600&display=swap');
+
+* {box-sizing: border-box;}
+
+body {margin: 0; font-family: 'Montserrat', sans-serif;}
+
+h1, h2 {font-family: 'Oswald', sans-serif;}
+h1, h2, h3 {margin-top: 0; }
+
+header {background-color: rgb(247, 215, 220);
+    height: 75.9vh;
+    padding: 0 8.33%;} 
+
+header, main {padding: 0 8.33vw !important;}
+
+header > div, main > div { height: 100%;}
+
+h3 {font-size: 16px; 
+    letter-spacing: 5px;
+    line-height: 125%;}
+
+h1 {font-size: 40px;
+    line-height: 125%;
+    vertical-align: top;}
+
+header p {line-height: 125%;
+    font-size: 15px;
+    color: rgb(93, 93, 93);}
+
+header a {font-size: 20px;
+    width: 37.5%;
+    display: block;
+    padding: 11.5px 0;
+    border-radius: 5px;}
+
+main {padding-bottom: 50%;}
+
+main h2 {padding-top: 10%;}
+
+main {height: 30vh;}
+
+textarea {resize: none;}
+
+.navbar {background-color: white;}
+
+main > .container-fluid:nth-child(2) {height: 50vh;}
+
+.modal-title { background-color: black; color: white !important; padding: 0 10px !important;}
+    
+main > .container-fluid { height: 20vh;}
+    
+header>div, main  .container-fluid > div, .carousel-inner, .carousel-item {height: 100%;}
+    
+.carousel-inner .carousel-item img  {height: 100%;object-fit: cover;}
+
+@media (max-width: 768px) {header {height: auto; padding:40px}}
+    
